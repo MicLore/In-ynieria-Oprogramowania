@@ -1,0 +1,37 @@
+﻿  Ustawienia.cpp
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(13,8): error C2039: „cout”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(13,1): error C2065: "cout": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(13,56): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(13,1): error C2065: "endl": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(13,85): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(14,8): error C2039: „cout”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(14,1): error C2065: "cout": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(14,21): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(14,1): error C2065: "endl": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(14,54): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(17,10): error C2039: „cout”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(17,1): error C2065: "cout": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(17,59): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(17,1): error C2065: "endl": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(20,8): error C2039: „cout”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(20,1): error C2065: "cout": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(20,21): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(20,1): error C2065: "endl": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(20,57): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(23,10): error C2039: „cout”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(23,1): error C2065: "cout": niezadeklarowany identyfikator
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(23,62): error C2039: „endl”: nie jest składową elementu „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Users\miclore2\source\repos\Diagram aktywności ustawień\Diagram aktywności ustawień\Ustawienia.h(23,1): error C2065: "endl": niezadeklarowany identyfikator
