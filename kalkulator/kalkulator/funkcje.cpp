@@ -1,6 +1,7 @@
 
 #include "funkcje.h"
 using namespace std;
+
 double logarytm(int a) {
 	return log(a);
 }
@@ -28,4 +29,8 @@ double odchylenie(double* tab, double sumator) {
 
     odchylenie = sqrt(sum / 20);
     return odchylenie;
+}
+
+double dzielenie(double a, double b) {
+    return (a / b);
 }
