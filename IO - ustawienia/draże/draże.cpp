@@ -6,10 +6,10 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace draże
 {
-	TEST_CLASS(draże)
-	{
-	public:
-		
+    TEST_CLASS(draże)
+    {
+    public:
+
         TEST_METHOD(UstawieniaObjectCreation)
         {
             // Arrange
@@ -48,7 +48,7 @@ namespace draże
         {
             // Arrange
             Ustawienia ust;
-            std::string testFilename = "test_ustawienia_save.txt"; // Test file name
+            std::string testFilename = "ustawienia.txt"; // Test file name
 
             // Set some initial values in zestawOpcji
             ust.zestawOpcji[0] = 0;
@@ -105,5 +105,5 @@ namespace draże
             ust.zmienUstawienie(3); // Change the setting value
             Assert::AreEqual(1, ust.zestawOpcji[3]); // Check if the value is changed correctly
         }
-	};
+    };
 }
