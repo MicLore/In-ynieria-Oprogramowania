@@ -1,12 +1,12 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <windows.h>
 #include <conio.h>
 #include <fstream>
 #include <cstdlib>
-
+#define ROZMIAR 8
 using namespace std;
-#define ROZMIAR 8	//liczba opcji dostępnych w menu ustawień + 1
+//#define ROZMIAR 8	//liczba opcji dostępnych w menu ustawień + 1
 
 class Ustawienia
 {
@@ -49,7 +49,7 @@ public:
 	void wczytajUstawienia() {
 		fstream ustawienia;
 		ustawienia.open("ustawienia.txt", ios::in);
-		/*
+		
 		if (ustawienia.good() == false)
 		{
 			menu();
@@ -61,26 +61,26 @@ public:
 			zestawOpcji[iterator] = stoi(line);
 			iterator++;
 		}
-		ustawienia.close();*/
-		zestawOpcji[0] = 0;
+		ustawienia.close();
+		/*zestawOpcji[0] = 0;
 		zestawOpcji[1] = 3;
 		zestawOpcji[2] = 3;
 		zestawOpcji[3] = 0;
 		zestawOpcji[4] = 3;
 		zestawOpcji[5] = 0;
 		zestawOpcji[6] = 3;
-		zestawOpcji[7] = 3;
+		zestawOpcji[7] = 3;*/
 	}
 
 	void zapiszUstawienia() {
-		for (int i = 0; i < ROZMIAR; i++) {
+		/*for (int i = 0; i < ROZMIAR; i++) {
 			if (zestawOpcji[i] == 1) {
 				zestawOpcji[i] = 0;
 			}
 			else if (zestawOpcji[i] == 2) {
 				zestawOpcji[i] = 3;
 			}
-		}
+		}*/
 		fstream ustawienia;
 		ustawienia.open("ustawienia.txt", ios::out);
 		for (int i = 0; i < ROZMIAR; i++) {
@@ -114,7 +114,7 @@ public:
 				cout << "Opcje zaznaczone  [*]  są wybrane do aktywacji." << endl;
 				cout << "Opcje zaznaczone  [-]  są wybrane do dezaktywacji." << endl;
 				break;
-			}				
+			}
 		}
 		int x = _getch();
 
@@ -165,7 +165,7 @@ public:
 			}
 		}
 		else {
-			zmienUstawienie(x-49);
+			zmienUstawienie(x - 49);
 		}
 	}
 	void zmienUstawienie(int numer) {
@@ -187,6 +187,7 @@ public:
 		}
 		system("cls");
 		//wyswietl();
+		zapiszUstawienia();
 	}
 
 };
